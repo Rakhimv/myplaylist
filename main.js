@@ -37,7 +37,7 @@ let index_no = 0;
 btn.forEach((btn,index) => {
   btn.addEventListener('click', function(){
 
-    s_m_player.style.transform = 'translateY(0px)';
+    s_m_player.style.transform = 'translateY(-150px)';
     
     if (index != index_no) {
       song_status = false;
@@ -182,7 +182,7 @@ function play_song(){
   song_status = true;
   setInterval(update_second, 1000);
   wave_animation.style.opacity = '1';
-  p_m_player.style.transform = 'translateY(0%)';
+  p_m_player.style.transform = 'translateY(-0%)';
 
   song_img.innerHTML = `<img src="${All_song[index_no].img}" />`;
   playing_img.innerHTML = `<img src="${All_song[index_no].img}" />`;
