@@ -335,7 +335,7 @@ input[type=range]::-webkit-slider-thumb::before {
   border-radius: 0px 0px 0px 10px;
   font-weight: bold;
   color: black;
-  font-size: 15px;
+  font-size: 70px;
 }
 
 .song_description {
